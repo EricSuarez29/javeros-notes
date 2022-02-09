@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+    <title>Home</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header th:replace="layout/layout :: header"></header>
+
+    <!-- MAIN -->
+    <main class="container">
+        <section class="row justify-content-center">
+            <div class="card col-md-8 mt-5 p-5 bg-light bg-opacity-50">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h1>Aplicación de Notas</h1>
+                        <hr>
+                        <p class="lead">En un lugar de la mancha de cuyo nombre...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer th:replace="layout/layout :: footer"></footer>
+</body>
+</html>
