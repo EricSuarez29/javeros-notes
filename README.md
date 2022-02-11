@@ -93,6 +93,7 @@ Ahora hacemos uso del objeto 'model' para pasarle datos a la vista que despues s
 <!DOCTYPE html>
 
 <!DOCTYPE html>
+
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8"/>
@@ -103,6 +104,8 @@ Ahora hacemos uso del objeto 'model' para pasarle datos a la vista que despues s
         <p th:text="'La fecha es: ' + ${fecha}" />
         
     </body>
+</html>
+
 </html>
 
 </html>
